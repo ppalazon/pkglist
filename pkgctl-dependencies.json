@@ -1,0 +1,13 @@
+{
+  "ecs-tasks-ops": [
+    "python-sshpubkeys"
+  ],
+  "fusesoc": [
+    "python-edalize",
+    "python-okonomiyaki",
+    "python-simplesat"
+  ],
+  "python-simplesat": [
+    "python-okonomiyaki"
+  ]
+}
