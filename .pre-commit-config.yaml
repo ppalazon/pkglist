@@ -12,6 +12,7 @@ repos:
   rev: v0.11.0
   hooks:
     -   id: shellcheck
+        exclude: '(^|/)PKGBUILD$'
 - repo: https://github.com/scop/pre-commit-shfmt
   rev: v3.13.1-1
   hooks:
