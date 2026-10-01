@@ -2,7 +2,8 @@
 
 This repository contains those packages that I maintain in the AUR (ArchLinux
 User Repository). I am only responsible to keep the package usable and
-installable in an ArchLinux workstation, but I'm not the owner of these packages.
+installable in an ArchLinux workstation, but I'm not the owner of these
+packages.
 
 ## Packages
 
@@ -23,15 +24,32 @@ correspond package repo in the AUR.
 
 ## Workflow
 
-Just as reminder, I write down the steps that I follow to maintain this package.
+Just as reminder, I write down the steps that I follow to maintain this
+package.
 
 1. Check new upstream version: `just check-versions [package_name]`.
 2. Modify `PKGBUILD` with the new version and reset `pkgver` to `1`.
-3. Update the package checksum to avoid impersonation: `just update-checksums package_name`
+3. Update the package checksum to avoid impersonation:
+   `just update-checksums package_name`
 4. Test the package build process: `just test-package package_name`
 5. Review everything works correctly, and it's correctly build.
 6. Commit the changes on this repository
 7. Publish the package: `aurpublish package_name`
+
+## Import a new package
+
+If you are responsible of an already created package, you can integrated in
+this workflow using the following command:
+
+```bash
+aurpublish -p package_name
+```
+
+## New package
+
+In case you're creating a new AUR package from scratch, you have to created
+first and them import it. You should follow the
+[AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines).
 
 ## LICENSE
 
