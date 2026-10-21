@@ -47,9 +47,12 @@ aurpublish -p package_name
 
 ## New package
 
-In case you're creating a new AUR package from scratch, you have to created
-first and them import it. You should follow the
-[AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines).
+In case you're creating a new AUR package from scratch, you have to created a
+new folder with all the required files, then push into this git repository, and
+finally you publish as if it were an already created package. You should follow
+the
+[AUR submission guidelines](https://wiki.archlinux.org/title/AUR_submission_guidelines)
+to create new packages.
 
 ## LICENSE
 
