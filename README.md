@@ -14,6 +14,7 @@ correspond package repo in the AUR.
 | Package              | AUR page                                                                                               |
 | -------------------- | ------------------------------------------------------------------------------------------------------ |
 | `ecs-tasks-ops`      | [aur.archlinux.org/packages/ecs-tasks-ops](https://aur.archlinux.org/packages/ecs-tasks-ops)           |
+| `floci-cli-bin`      | [aur.archlinux.org/packages/floci-cli-bin](https://aur.archlinux.org/packages/floci-cli-bin)           |
 | `fusesoc`            | [aur.archlinux.org/packages/fusesoc](https://aur.archlinux.org/packages/fusesoc)                       |
 | `python-edalize`     | [aur.archlinux.org/packages/python-edalize](https://aur.archlinux.org/packages/python-edalize)         |
 | `python-okonomiyaki` | [aur.archlinux.org/packages/python-okonomiyaki](https://aur.archlinux.org/packages/python-okonomiyaki) |
